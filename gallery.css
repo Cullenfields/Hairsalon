@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  background-color:white;
+}
+
+#logo{
+  width: 100%;
+  height: 9vh;
+  background-color: #343A40;
+}
+
+.cs{
+  color: #DEE2E6;
+  font-family: 'Alex Brush', cursive;
+  font-size: 75px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+nav{
+  display: flex;
+  width: 75%;
+  padding-left: 15em;
+  font-size: 3vh;
+  color: black;
+  font-family: monospace;
+  justify-content: space-evenly;
+  font-family: 'Nunito', sans-serif;
+  
+}
+
+a:hover{
+  background-color: #E9ECEF;
+}
+
+a:visited {
+  color: #888e94;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+background: white
+  
+}
+
+.title{
+  font-family: 'Alex Brush', cursive;
+  color: black;
+}
+.top{
+  font-family: 'Nunito', sans-serif;
+  text-decoration: overline;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: 'Turret Road', cursive;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+ .header {
+  text-align: center;
+  justify-content: center;
+  padding: 32px;
+} 
+
+
+
+.row {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
