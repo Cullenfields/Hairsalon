@@ -44,10 +44,7 @@ a:visited {
   gap: 500px;
   max-width: 50%;
   filter: contrast(175%);
-
 }
-
-
 
 .midText{
   display: flex;
@@ -74,21 +71,6 @@ a:visited {
   border: 2px solid black;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
   margin: 20 px 0;
   max-width: 100%;
@@ -112,18 +94,13 @@ footer{
   font-family: 'Nunito', sans-serif;
 }
 
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
+@media screen and (max-width: 268px) {
+  .firstPic{
+    display: flex;
+    /* margin-left: 50px; */
+    /* gap: 500px; */
     max-width: 50%;
+    filter: contrast(175%);
   }
 }
 
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
