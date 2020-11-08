@@ -45,13 +45,15 @@ a:visited {
 body {
   margin: 0;
   font-family: Arial;
-background: white
+  background: rgb(240,237,239);
+background: linear-gradient(90deg, rgba(240,237,239,1) 17%, rgba(200,195,196,1) 52%, rgba(251,251,251,1) 89%);
   
 }
 
 .title{
   font-family: 'Alex Brush', cursive;
   color: black;
+  font-size: 50px;
 }
 .top{
   font-family: 'Nunito', sans-serif;
